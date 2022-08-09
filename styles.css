@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+#logo{
+    margin: 55px;
+}
+
+body {
+
+    color: #ffff;
+    background-color: rgb(0, 0, 0);
+
+}
+
+header{
+
+
+   display: flex;
+   justify-content: center;
+    
+    
+}
+.perfil{
+
+margin: 55px;
+
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+
+   text-align: center;
+   font-size: 25px;
+
+
+}
+
+.paidetodos{
+
+display:flex;
+gap: 35px;
+list-style: none;
+justify-content: center;
+align-items: center;
+margin: 55px;
+
+}
+
+.diferentao{
+
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+
+
+}
+
+div{
+
+
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.diferentao{
+    gap: 2px;
+
+
+
+}
+
+p
+{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+
+figure:hover {
+    border: solid 1px rgb(247, 247, 241);
+    color: rgb(73, 73, 75);
+   
+  }
+
+
+
+  
+  .botom {
+    background-color: #000000;
+    border: 3px grey;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 55px;
+}
+
+
+
+.botom:hover{
+    color: red;
+    background-color: rgb(61, 64, 66);
+
+}
+
+img{
+
+    border-radius: 10px;
+}
+
+div:hover{
+    color: rgb(155, 154, 153);
+background-color: rgb(148, 148, 144);
+
+
+}
+
+#addperf:hover{
+
+
+    color: rgb(155, 154, 153);
+    background-color: rgb(148, 148, 144);
+}
