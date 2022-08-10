@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     border: 0;
 }
 
-#logo{
+#logo {
     margin: 55px;
 }
 
@@ -14,58 +14,80 @@ body {
 
 }
 
-header{
+header {
 
 
-   display: flex;
-   justify-content: center;
-    
-    
-}
-.perfil{
+    display: flex;
+    justify-content: center;
 
-margin: 55px;
 
 }
 
+.perfil {
 
-main{
+    margin: 55px;
+
+}
+
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-h1{
+h1 {
 
-   text-align: center;
-   font-size: 25px;
-
-
-}
-
-.paidetodos{
-
-display:flex;
-gap: 35px;
-list-style: none;
-justify-content: center;
-align-items: center;
-margin: 55px;
-
-}
-
-.diferentao{
-
-display: flex;
-flex-direction: column;
-width: 100%;
-justify-content: center;
+    text-align: center;
+    font-size: 25px;
 
 
 }
 
-div{
+.paidetodos {
+
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 55px;
+
+}
+
+.perfils{
+
+gap: 15%;
+
+
+
+}
+
+figure{
+border-radius:  2px #ffff;
+
+
+
+
+
+
+}
+
+
+
+.diferentao {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    
+
+
+}
+
+div {
 
 
     width: 160px;
@@ -73,38 +95,31 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 
 
 
 
-.diferentao{
+.diferentao {
     gap: 2px;
 
 
 
 }
 
-p
-{
+p {
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif
-
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 
 
-figure:hover {
-    border: solid 1px rgb(247, 247, 241);
-    color: rgb(73, 73, 75);
-   
-  }
 
 
 
-  
-  .botom {
+.botom {
     background-color: #000000;
     border: 3px grey;
     color: grey;
@@ -120,27 +135,62 @@ figure:hover {
 
 
 
-.botom:hover{
-    color: red;
-    background-color: rgb(61, 64, 66);
+.botom:hover {
+    box-sizing: border-box;
+    color: rgb(63, 62, 62);
+    background-color: rgb(228, 232, 235);
+    border-radius: 5px;
 
 }
 
-img{
-
+img {
+    width: 30;
     border-radius: 10px;
+    border: solid 1px transparent
 }
 
-div:hover{
-    color: rgb(155, 154, 153);
-background-color: rgb(148, 148, 144);
 
 
-}
-
-#addperf:hover{
+#addperf:hover {
 
 
     color: rgb(155, 154, 153);
     background-color: rgb(148, 148, 144);
+
 }
+
+
+
+li:hover {
+
+border-radius: 12px;
+
+color: rgb(128, 126, 126);
+
+}
+
+
+
+li:hover img {
+
+    border: solid 1px rgb(247, 247, 241);
+    
+    }
+    
+
+    li:hover div {
+
+        border: solid 1px rgb(247, 247, 241);
+        
+        }
+
+        li:hover .estranha {
+
+            width: 30;
+            border-radius: 1px;
+            border: solid 1px black
+          
+
+
+
+        }
