@@ -56,6 +56,22 @@ h1 {
 
 }
 
+.paidetodos li:hover{
+
+    border-radius: 12px;
+
+    color: rgb(247, 243, 243);
+
+
+}
+
+/*.paidetodos li {
+
+color: grey;
+    
+}*/
+
+
 .perfils{
 
 gap: 15%;
