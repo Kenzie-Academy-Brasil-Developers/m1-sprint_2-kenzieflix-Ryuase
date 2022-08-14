@@ -3,8 +3,18 @@
     border: 0;
 }
 
+.banner{
+
+    width: auto;
+    
+}
+
 #logo {
-    margin: 55px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10%;
+
+    
 }
 
 body {
@@ -119,6 +129,7 @@ div {
 
 
 .diferentao {
+   
     gap: 2px;
 
 
@@ -193,21 +204,25 @@ color: rgb(128, 126, 126);
 li:hover img {
 
     border: solid 1px rgb(247, 247, 241);
+   
     
     }
     
 
-    li:hover div {
+li:hover .diego {
+    border: 1px solid rgb(240, 233, 233);
+    border-radius: 10px;
+    width: 149px;
 
-        border: solid 1px rgb(247, 247, 241);
-        
-        }
+}
 
         li:hover .estranha {
 
             width: 30;
             border-radius: 1px;
-            border: solid 1px black
+            border: solid 1px black;
+
+            
           
 
 
